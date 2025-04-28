@@ -1,0 +1,14 @@
+[
+  {
+    "command": "shutdown /s /t 0",
+    "name": "1 Shutdown now"
+  },
+  {
+    "command": "rundll32.exe user32.dll,LockWorkStation",
+    "name": "2 Lock Screen"
+  },
+  {
+    "command": "rundll32.exe powrprof.dll,SetSuspendState 0,1,0",
+    "name": "3 Suspend"
+  }
+]
