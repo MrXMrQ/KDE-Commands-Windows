@@ -13,10 +13,10 @@
   },
   {
     "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\open_steam.bat",
-    "name": "04 Start steam"
+    "name": "4 Start steam"
   },
   {
     "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\kill_steam.bat",
-    "name": "05 Exit steam"
+    "name": "5 Exit steam"
   }
 ]
