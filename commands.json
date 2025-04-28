@@ -10,5 +10,13 @@
   {
     "command": "rundll32.exe powrprof.dll,SetSuspendState 0,1,0",
     "name": "3 Suspend"
+  },
+  {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\open_steam.bat",
+    "name": "04 Start steam"
+  },
+  {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\kill_steam.bat",
+    "name": "05 Exit steam"
   }
 ]
