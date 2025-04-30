@@ -1,9 +1,7 @@
 import subprocess
-from turtle import title
 import pygetwindow
 import time
 import screeninfo
-import psutil
 
 
 class ProcessManager:
