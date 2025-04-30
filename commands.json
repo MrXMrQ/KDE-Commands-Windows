@@ -18,5 +18,9 @@
   {
     "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\kill_steam.bat",
     "name": "5 Exit steam"
+  },
+  {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\dev_environment.bat",
+    "name": "6 Development"
   }
 ]
