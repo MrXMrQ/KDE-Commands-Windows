@@ -1,0 +1,1 @@
+nircmd.exe setprimarydisplay 1

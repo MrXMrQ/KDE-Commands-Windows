@@ -1,7 +1,9 @@
 import subprocess
+from turtle import title
 import pygetwindow
 import time
 import screeninfo
+import psutil
 
 
 class ProcessManager:
@@ -48,8 +50,10 @@ class ProcessManager:
 
         if windows:
             window = windows[0]
-            window.moveTo(target_x, target_y)
             window.restore()
+            time.sleep(0.5)
+            window.moveTo(target_x, target_y)
+            time.sleep(0.5)
 
             if max_mize:
                 window.maximize()
@@ -59,6 +63,8 @@ class ProcessManager:
                 return
 
             window.resizeTo(width, height)
+        else:
+            raise ValueError(f"No window found for process: {path}")
 
     def __str__(self) -> str:
         """Returns a string representation of the connected monitors."""

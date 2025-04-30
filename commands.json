@@ -20,7 +20,15 @@
     "name": "5 Exit steam"
   },
   {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\brave.bat",
+    "name": "6 Brave"
+  },
+  {
     "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\dev_environment.bat",
-    "name": "6 Development"
+    "name": "7 Development environment"
+  },
+  {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\default_pm.bat",
+    "name": "8 Primary monitor → 1"
   }
 ]

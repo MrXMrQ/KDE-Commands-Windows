@@ -6,6 +6,4 @@ STEAM_PATH = [
 ]
 
 manager = ProcessManager()
-manager.open_process(
-    path=STEAM_PATH, title="GitHub Desktop", monitor_index="4", max_mize=True
-)
+manager.open_process(path=STEAM_PATH, title="steam", monitor_index="4", max_mize=True)
