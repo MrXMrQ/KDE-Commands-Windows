@@ -59,8 +59,6 @@ class ProcessManager:
                 return
 
             window.resizeTo(width, height)
-        else:
-            raise ValueError(f"Window for process at '{path}' not found.")
 
     def __str__(self) -> str:
         """Returns a string representation of the connected monitors."""
