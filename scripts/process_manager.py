@@ -8,7 +8,6 @@ class ProcessManager:
     def __init__(self) -> None:
         self._monitors = self._list_monitors()
         self._active_processes = []
-        pass
 
     def _list_monitors(self) -> list:
         """Returns a list of connected monitors."""
@@ -26,7 +25,7 @@ class ProcessManager:
     ) -> None:
         """Opens a process and moves the window to the specified monitor."""
         try:
-            process = subprocess.Popen(path)
+            subprocess.Popen(path)
         except Exception as e:
             raise ValueError(f"'{path}' is not valid! Error: {e}")
 
