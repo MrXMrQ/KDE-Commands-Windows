@@ -1,4 +1,5 @@
 @echo off
+taskkill /f /im brave.exe
 nircmd.exe setdefaultsounddevice "PHL 323E7"
 nircmd speak text "starting brave"
 taskkill /f /im brave.exe
