@@ -21,18 +21,18 @@
   },
   {
     "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\brave.bat",
-    "name": "6 Brave"
-  },
-  {
-    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\dev_environment.bat",
-    "name": "7 Development environment"
-  },
-  {
-    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\default_pm.bat",
-    "name": "8 Primary monitor → 1"
+    "name": "6 Start Brave"
   },
   {
     "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\move_brave.bat",
-    "name": "9 Move brave"
+    "name": "7 Move Brave"
+  },
+  {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\kill_brave.bat",
+    "name": "8 Exit Brave"
+  },
+  {
+    "command": "start powershell -command C:\\Development\\KDEConnectCommands\\KDE-Commands-Windows\\batchFiles\\dev_environment.bat",
+    "name": "9 Development environment"
   }
 ]
